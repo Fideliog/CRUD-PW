@@ -13,6 +13,19 @@ export default function Dashboard() {
     }, []);
 
     return (
-        <div className="container mt-4"></div>
+        <div className="container mt-4">
+            <Card className="p-3 shadow">
+                <div className="d-flex align-items-center">
+                    <FaBox size={40} className="me-3"/>
+                    <div>
+                        <h5>Total de Produtos</h5>
+                        <h2> {total} </h2>
+                        <Button variant="primary" onClick={() => navigate("/products")}>
+                            Visualizar
+                        </Button>
+                    </div>
+                </div>
+            </Card>
+        </div>
     );
 }
