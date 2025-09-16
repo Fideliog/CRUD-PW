@@ -1,12 +1,244 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "nome": "Notebook",
-            "preco": 3500.00,
-            "ativo": true,
-            "data_criacao": "2025-01-01",
-            "data_atualizacao": "2025-01-01"
-        }
-    ]
+  "products": [
+    {
+      "id": "a101",
+      "nome": "Cadeira",
+      "preco": "120",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a102",
+      "nome": "Notebook",
+      "preco": "3500",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a103",
+      "nome": "Teclado",
+      "preco": "250",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a104",
+      "nome": "Mouse",
+      "preco": "150",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a105",
+      "nome": "Monitor",
+      "preco": "950",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a106",
+      "nome": "Impressora",
+      "preco": "1300",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a107",
+      "nome": "Luminária",
+      "preco": "80",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a108",
+      "nome": "Estante",
+      "preco": "300",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a109",
+      "nome": "Sofá",
+      "preco": "2100",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a110",
+      "nome": "Cama",
+      "preco": "1800",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a111",
+      "nome": "Armário",
+      "preco": "900",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a112",
+      "nome": "Fogão",
+      "preco": "1300",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a113",
+      "nome": "Geladeira",
+      "preco": "2800",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a114",
+      "nome": "Micro-ondas",
+      "preco": "700",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a115",
+      "nome": "Liquidificador",
+      "preco": "200",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a116",
+      "nome": "Ventilador",
+      "preco": "180",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a117",
+      "nome": "Ar-condicionado",
+      "preco": "3200",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a118",
+      "nome": "TV",
+      "preco": "2700",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a119",
+      "nome": "Roteador",
+      "preco": "350",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a120",
+      "nome": "Tablet",
+      "preco": "2300",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a121",
+      "nome": "Smartwatch",
+      "preco": "900",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a122",
+      "nome": "Fone de ouvido",
+      "preco": "450",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a123",
+      "nome": "Aspirador de pó",
+      "preco": "600",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a124",
+      "nome": "Máquina de lavar",
+      "preco": "2500",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a125",
+      "nome": "Secador de cabelo",
+      "preco": "220",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a126",
+      "nome": "Chuveiro elétrico",
+      "preco": "180",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a127",
+      "nome": "Torradeira",
+      "preco": "160",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a128",
+      "nome": "Panela elétrica",
+      "preco": "340",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a129",
+      "nome": "Batedeira",
+      "preco": "230",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    },
+    {
+      "id": "a130",
+      "nome": "Relógio de parede",
+      "preco": "110",
+      "ativo": true,
+      "data_criacao": "2025-09-16",
+      "data_atualizacao": "2025-09-16"
+    }
+  ]
 }

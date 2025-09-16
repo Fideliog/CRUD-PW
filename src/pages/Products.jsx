@@ -13,6 +13,11 @@ export default function Products() {
     const loadProducts = async () => {
         const res = await api.get("/products");
         setProducts(res.data);
+        if (products.length > 0) {
+            if ($.fn.dataTable.isDataTable("#productsTable")) {
+                $("#productsTable").DataTable().destroy();
+            }
+        }
         $('#productsTable').DataTable();
     }
 
@@ -50,7 +55,7 @@ export default function Products() {
                         <tr key={p.id}>
                             <td>{p.id}</td>
                             <td>{p.nome}</td>
-                            <td>R$ {p.preco.tofixed(2)}</td>
+                            <td>R$ {p.preco}</td>
                             <td>{p.ativo ? "Sim" : "Não"}</td>
                             <td>{p.data_criacao}</td>
                             <td>{p.data_atualizacao}</td>

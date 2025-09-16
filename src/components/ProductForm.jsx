@@ -28,9 +28,9 @@ export default function ProductForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (id) {
-            await api.put("/products/${id}", product);
+            await api.put(`/products/${id}`, product);
         } else {
-            await api.post("/products", product);
+            await api.post(`/products`, product);
         }
         navigate("/products");
     };
